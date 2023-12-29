@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "testmod:octanite_ingot"
+    }
+  },
+  "result": {
+    "item": "testmod:octanite_block"
+  }
+}
