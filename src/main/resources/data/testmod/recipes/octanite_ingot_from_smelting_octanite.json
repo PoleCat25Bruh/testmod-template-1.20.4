@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1,
+  "group": "octanite",
+  "ingredient": {
+    "item": "testmod:octanite"
+  },
+  "result": "testmod:octanite_ingot"
+}

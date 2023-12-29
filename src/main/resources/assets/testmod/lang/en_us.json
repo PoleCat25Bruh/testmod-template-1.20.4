@@ -1,0 +1,9 @@
+{
+  "item.testmod.octanite": "Octanite",
+  "item.testmod.octanite_ingot": "Octanite ingot",
+
+  "block.testmod.octanite_block": "Block of Octanite",
+  "block.testmod.octanite_ore": "Octanite ore",
+
+  "itemgroup.octanite": "Octanite"
+}
