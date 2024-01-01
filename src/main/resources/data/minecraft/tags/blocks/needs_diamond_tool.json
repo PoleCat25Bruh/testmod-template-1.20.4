@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "testmod:octanite_block",
+    "testmod:octanite_ore"
+  ]
+}
