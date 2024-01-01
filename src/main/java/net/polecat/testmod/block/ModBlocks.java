@@ -20,7 +20,7 @@ public class ModBlocks {
     public static final Block OCTANITE_BLOCK = registerBlock("octanite_block",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK)));
     public static final Block OCTANITE_ORE = registerBlock("octanite_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(2, 5)));
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.STONE).strength(2f)));
 
     private static Block registerBlock(String name, Block block) {
         return Registry.register(Registries.BLOCK, new Identifier(TestMod.MOD_ID, name), block);
