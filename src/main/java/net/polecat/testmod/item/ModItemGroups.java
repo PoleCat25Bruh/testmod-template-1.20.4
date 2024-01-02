@@ -16,10 +16,10 @@ public class ModItemGroups {
             new Identifier(TestMod.MOD_ID, "octanite"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.octanite"))
                     .icon(() -> new ItemStack(ModItems.OCTANITE)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.OCTANITE);
-                        entries.add(ModItems.OCTANITE_INGOT);
-                        entries.add(ModBlocks.OCTANITE_BLOCK);
-                        entries.add(ModBlocks.OCTANITE_ORE);
+                        //entries.add(ModItems.OCTANITE);
+                        //entries.add(ModItems.OCTANITE_INGOT);
+                        //.add(ModBlocks.OCTANITE_BLOCK);
+                        //entries.add(ModBlocks.OCTANITE_ORE);
 
                     }).build());
 
