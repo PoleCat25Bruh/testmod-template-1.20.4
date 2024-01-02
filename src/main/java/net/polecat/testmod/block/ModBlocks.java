@@ -20,6 +20,7 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.STONE).strength(2f)));
 
     private static Block registerBlock(String name, Block block) {
+        registerBlockItem(name, block)
         return Registry.register(Registries.BLOCK, new Identifier(TestMod.MOD_ID, name), block);
     }
 
